@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Dropdown */
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Table Styling */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6f0ff;
+}
